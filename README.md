@@ -15,7 +15,7 @@ More info about modules for Framer Studio: [FramerJS Docs - Modules](http://fram
 ## How to use this module
 You only need one line of code to make Simple Android Ripples work. It looks a little something like this:
 
-  `layerName.on(Events.Click, android.ripple)`
+&nbsp;&nbsp;&nbsp;&nbsp;`layerName.on(Events.Click, android.ripple)`
 
 Replace layerName with the name of the layer you wish to add a touch ripple to when clicked.
 
