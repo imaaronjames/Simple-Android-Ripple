@@ -1,4 +1,4 @@
-## Created by Aaron James - November 24th, 2015
+## Created by Aaron James - April 14th, 2016
 android = require "androidRipple"
 
 bg = new BackgroundLayer
