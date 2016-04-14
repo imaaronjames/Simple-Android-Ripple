@@ -1,4 +1,4 @@
-# Module created by Aaron James | November 24th, 2015
+# Module created by Aaron James | April 16th, 2016
 #
 # Pointer Module by Jordan Dobson is required for this module
 # Install this module first here: http://bit.ly/1lgmNpT
@@ -16,7 +16,7 @@
 {Pointer} = require "Pointer"
 
 # create ripple function
-exports.ripple = (event, layer) ->
+exports.Ripple = (event, layer) ->
 	eventCoords = Pointer.offset(event, layer)
 
 	# Change color of ripple

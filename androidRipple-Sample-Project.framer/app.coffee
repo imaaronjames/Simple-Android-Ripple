@@ -1,5 +1,5 @@
 ## Created by Aaron James - April 14th, 2016
-android = require "androidRipple"
+Android = require "androidRipple"
 
 bg = new BackgroundLayer
 	backgroundColor: "#eeeeee"
@@ -16,4 +16,4 @@ btn = new Layer
 btn.center()
 
 # Add ripple to layer
-btn.on(Events.Click, android.ripple)
+btn.on(Events.Click, Android.Ripple)

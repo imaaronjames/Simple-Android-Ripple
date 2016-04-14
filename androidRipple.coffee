@@ -1,12 +1,12 @@
-# Module created by Aaron James | November 24th, 2015
+# Module created by Aaron James | April 16th, 2016
 #
 # Pointer Module by Jordan Dobson is required for this module
-# Download and add his module to your modules folder first: http://bit.ly/1lgmNpT
+# Install this module first here: http://bit.ly/1lgmNpT
 #
-# Add the following line to the top of your project:
+# Add the following line at the top of your project to access this module:
 # android = require "androidRipple"
 #
-# To add ripple to a layer, use this line of code:
+# To add ripple to layer, use this line of code:
 # layerName.on(Events.Click, android.ripple)
 # Replace layerName with the name of your layer
 #
@@ -16,7 +16,7 @@
 {Pointer} = require "Pointer"
 
 # create ripple function
-exports.ripple = (event, layer) ->
+exports.Ripple = (event, layer) ->
 	eventCoords = Pointer.offset(event, layer)
 
 	# Change color of ripple

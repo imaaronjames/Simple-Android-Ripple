@@ -6,7 +6,7 @@ A Framer Studio module for adding touch ripple animations to any layer
 1. First, download the [Pointer Module](http://framerco.de/post/130291848269/module-pointer-helper-class-this-module-helps-you) by [Jordan Dobson](https://twitter.com/jordandobson). *This module is required.*
 2. Download the androidRipple.coffee file.
 2. Create a new Framer project and add both androidRipple.coffee and Pointer.coffee to your /modules folder.
-3. Add `android = require 'androidRipple'` at the top of your document.
+3. Add `Android = require 'androidRipple'` at the top of your document.
 
 [Sample Project can be found here](http://share.framerjs.com/aqzkcamx0iqw/)
 
@@ -17,7 +17,7 @@ More info about modules for Framer Studio: [FramerJS Docs - Modules](http://fram
 ## How to use this module
 You only need one line of code to make Simple Android Ripples work. It looks a little something like this:
 
-&nbsp;&nbsp;&nbsp;&nbsp;`layerName.on(Events.Click, android.ripple)`
+&nbsp;&nbsp;&nbsp;&nbsp;`layerName.on(Events.Click, Android.Ripple)`
 
 Replace layerName with the name of the layer you wish to add a touch ripple to when clicked.
 
