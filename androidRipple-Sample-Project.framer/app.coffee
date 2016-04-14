@@ -12,8 +12,8 @@ btn = new Layer
 	shadowY: 6
 	shadowBlur: 6
 	shadowColor: "rgba(0,0,0,0.24)"
+	clip: true ## buttons must include clip
 btn.center()
-btn.clip = true
 
 # Add ripple to layer
 btn.on(Events.Click, android.ripple)
