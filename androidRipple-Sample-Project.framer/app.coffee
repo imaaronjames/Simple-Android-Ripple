@@ -1,4 +1,4 @@
-## Created by Aaron James - November 24th, 2015
+## Created by Aaron James - April 14th, 2016
 android = require "androidRipple"
 
 bg = new BackgroundLayer
@@ -12,8 +12,8 @@ btn = new Layer
 	shadowY: 6
 	shadowBlur: 6
 	shadowColor: "rgba(0,0,0,0.24)"
+	clip: true ## buttons must include clip
 btn.center()
-btn.clip = true
 
 # Add ripple to layer
 btn.on(Events.Click, android.ripple)
