@@ -21,7 +21,7 @@ exports.Ripple = (event, layer) ->
 
 	# Change color of ripple
 	color = "black"
-	animation = curve: "ease-out", time: .4
+	animation = curve: "ease-out", time: .8
 
 	# Create layers on Click
 	pressFeedback = new Layer
